@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'oxygen', sans-serif;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background: #00000091;
+    padding: 40px;
+}
+.nav{
+    float: right;
+    margin: 0 2px;
+}
+.nav li{
+    display: inline-block;
+    list-style-type: none;
+}
+.navitem{
+    margin: 0px;
+    padding: 0 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.navitem:hover{
+    color: #E16D4E;
+}
+.navitem.active{
+    color: #E16D4E;
+}
+.logo img{
+    height: 5em;
+}
+.search {
+   display: flex;
+   margin: auto 0;
+   height: 30px;
+   line-height: 30px;
+    border-radius: 10px;
+}
+.carousel img{
+    width: 100%;
+    height: 0% auto;
+}
+.courses{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    width: 100%;
+    height: 50%;
+    padding: 80px;
+}
+h1{
+    padding: 30px 0px 0px 20px;
+    font-weight: 400;
+}
+h2{
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    padding: 10px 0px;
+}
+.courses div{
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+.courses p{
+    font-size: 15px;
+    color: white;
+    padding: 10px 0px;
+}
+.courses button{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+.french{
+    background-color: #E16D4E;
+    text-align: justify;
+    padding: 20px;
+    margin: 10px;
+}
+.spanish{
+    background-color: #E16D4E;
+    text-align: justify;
+    padding: 20px;
+    margin: 10px;
+}
+.german{
+    background-color: #E16D4E;
+    text-align: justify;
+    padding: 20px;
+    margin: 10px;
+}
+.offers{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    width: 100%;
+    height: 50%;
+    padding: 80px;
+}
+.offers div{
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+.offers p{
+    font-size: 15px;
+    color: white;
+    padding: 10px 0px;
+}
+.offers button{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+.tfrench{
+    background-color: #375994;
+    text-align: justify;
+    padding: 20px;
+    margin: 10px;
+}
+.tspanish{
+    background-color: #375994;
+    text-align: justify;
+    padding: 20px;
+    margin: 10px;
+}
+.tgerman{
+    background-color: #375994;
+    text-align: justify;
+    padding: 20px;
+    margin: 10px;
+}
+footer{
+    background-color: gray;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    color: whitesmoke;
+}
