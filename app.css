@@ -138,6 +138,35 @@ h2{
     padding: 20px;
     margin: 10px;
 }
+.why{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-content: space-between;
+    width: 100%;
+    height: 50%;
+    padding: 80px;
+    background-color: #E16D4E;
+}
+.whylearn{
+    text-align: center;
+}
+.why div{
+    border-radius: 10px;
+    padding: 20px 40px;
+    background-color: white;
+    margin: 10px;
+}
+.why p{
+    font-size: 15px;
+    color: gray;
+    padding: 10px 0px;
+}
+.why button{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
 footer{
     background-color: gray;
     margin: 0;
